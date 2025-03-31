@@ -39,7 +39,7 @@ const App = () => {
   const inputRef = useRef(null);
 
   // Gemini API Key
-  const GEMINI_API_KEY = "AIzaSyA8kcCjdMccNXLSBftuuyR0eUjyckT2Q7A";
+
 
   const suggestedQuestions = [
     "List all the companies that visited the college last year?",
