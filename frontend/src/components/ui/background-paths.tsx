@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
-
+import  {RainbowButton} from "@/components/rainbow-button";
 function FloatingPaths({ position }: { position: number }) {
     const paths = Array.from({ length: 36 }, (_, i) => ({
         id: i,
@@ -139,7 +139,7 @@ export function BackgroundPaths({
                         transition={{ delay: 0.5, duration: 0.8 }}
                         className="mt-6 text-white/70 text-2xl"
                     >
-                       Empower Your Placement Journey – Get Insights into JEC's Previous Placement Records Instantly!
+                       Seniors share, juniors succeed!
                     </motion.p>
                 </motion.div>
             </div>
