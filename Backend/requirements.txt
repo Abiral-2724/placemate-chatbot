@@ -10,3 +10,5 @@ python-dotenv
 pypdf
 gspread
 oauth2client
+flask
+flask_cors
