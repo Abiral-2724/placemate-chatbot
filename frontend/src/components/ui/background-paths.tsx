@@ -139,7 +139,11 @@ export function BackgroundPaths({
                         transition={{ delay: 0.5, duration: 0.8 }}
                         className="mt-6 text-white/70 text-2xl"
                     >
-                       Seniors share, juniors succeed!
+                     “ Your Smartest Placement Buddy – Right at JEC ! ” 
+                     <br />
+                     Ask . Learn . Succeed . 
+                     <br />
+                     Placemate has the answers to your placement questions.
                     </motion.p>
                 </motion.div>
             </div>

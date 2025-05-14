@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
             <div className="mb-6 md:mb-0 text-center md:text-left">
-              <h3 className="text-white font-semibold text-lg mb-2">Placemate</h3>
+              <h3 className="text-white font-semibold text-lg mb-2 tracking-widest">Placemate</h3>
               <p className="text-sm max-w-xs">
               Your Ultimate Guide to JEC Placement
               
@@ -46,15 +46,7 @@ const Navbar = () => {
             
             
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Instagram />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Twitter />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Facebook />
-              </a>
+             <a href="/aboutUs">AboutUs</a>
             </div>
           </div>
           
@@ -69,7 +61,7 @@ const Home = () => {
   return (
     <div className="bg-black min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-3">
+      <main className="flex-grow pt-3 tracking-wide">
         <BackgroundPaths title="Placemate" />
       </main>
       <Footer />
