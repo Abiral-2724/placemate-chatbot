@@ -45,7 +45,7 @@ import {
             <div className="flex space-x-8 text-xs">
               <a href="#" className="text-zinc-500 hover:text-blue-400 transition-colors">Terms</a>
               <a href="#" className="text-zinc-500 hover:text-blue-400 transition-colors">Privacy</a>
-              <a href="#" className="text-zinc-500 hover:text-blue-400 transition-colors">Cookies</a>
+              <a href="/aboutUs" className="text-zinc-500 hover:text-blue-400 transition-colors">AboutUs</a>
               <a href="#" className="text-zinc-500 hover:text-blue-400 transition-colors">FAQ</a>
             </div>
           </div>

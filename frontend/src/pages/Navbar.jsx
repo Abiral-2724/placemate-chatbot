@@ -26,10 +26,10 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 
 const Navbar = () => {
     return (
-      <div className="py-3 px-6 border-b border-zinc-800/60 backdrop-blur-md bg-zinc-950/80 sticky top-0 z-10 flex justify-between items-center">
+      <div className="py-6 px-6 border-b border-zinc-800/60 backdrop-blur-md bg-zinc-950/80 sticky top-0 z-10 flex justify-between items-center">
         <div className="flex items-center">
           <Sparkles className="h-5 w-5 mr-2 text-blue-400" />
-          <span className="text-white font-semibold text-xl tracking-tight"><SparklesText text="Placemate" /></span>
+          <span className="text-white font-serif text-xl tracking-tight"><SparklesText text="Placemate" /></span>
           
         </div>
         <div className="flex items-center space-x-3">
