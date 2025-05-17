@@ -5,7 +5,6 @@ import { Facebook, Instagram, Twitter } from 'lucide-react';
 import {ButtonColorful} from "@/components/ui/button-colorful";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 import bot from "../assets/bot.jpg"  // adjust the path as needed
-import BoostSection from "@/components/ui/BoostSection";
 
 const Navbar = () => {
     const navigate=useNavigate() ;
@@ -25,10 +24,8 @@ const Navbar = () => {
               label="Get Started"
             />
           </div>
-         
         </div>
       </nav>
-      
     );
   };
 
@@ -36,23 +33,23 @@ const Navbar = () => {
   const Footer = () => {
     return (
       <footer className="bg-black border-t border-gray-800 text-gray-400">
-        <BoostSection />
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
             <div className="mb-6 md:mb-0 text-center md:text-left">
-              <h3 className="text-white font-semibold text-lg mb-2 tracking-widest">
-                Placemate
-              </h3>
+              <h3 className="text-white font-semibold text-lg mb-2 tracking-widest">Placemate</h3>
               <p className="text-sm max-w-xs">
-                Your Ultimate Guide to JEC Placement
+              Your Ultimate Guide to JEC Placement
+              
               </p>
             </div>
-
+            
+            
+            
             <div className="flex space-x-4">
-              <a href="/aboutUs">AboutUs</a>
+             <a href="/aboutUs">AboutUs</a>
             </div>
           </div>
-
+          
           <div className="border-t border-gray-800 mt-6 pt-6 text-sm text-center">
             &copy; {new Date().getFullYear()} Placemate. All rights reserved.
           </div>
